@@ -26,15 +26,56 @@
     <!--DO NOT OVERWRITE ANYTHING-->
 
     <div id="remita-div">
-      <div
-        class="div_remita_intro d-flex align-items-center flex-column justify-content-center"
-      >
+      <div class="div_remita_intro d-flex align-items-center flex-column justify-content-center w-75">
         <img src="./assets/electricity_light_up_icon.svg" alt="" />
         <h3>Register with Remita</h3>
         <h6>Please enter your details below</h6>
       </div>
 
-      <!--Form-->
+      <!-- FORM -->
+      <form action="sub">
+        <div class="container">
+          <div class="row">
+              <div class="col-md-6 col-lg-6 col-6">
+                <label for="email" class="d-block">Email Address*</label>
+                <input type="text" id="email" placeholder="Enter Email Address">
+              </div>
+
+              <div class="col-md-6  col-lg-6 col-6"> 
+              <label for="phone" class="d-block">Phone Number*</label>
+                <input type="text" id="phone" >
+              </div>
+
+              <div class="col-md-6  col-lg-6 col-6">
+                <label for="first-name" class="d-block">First Name*</label>
+                <input type="text" id="first-name" placeholder="Enter First Name">
+              </div>
+
+              <div class="col-md-6  col-lg-6 col-6">
+                <label for="last-name" class="d-block">Last Name*</label>
+                <input type="text" id="last-name" placeholder="Enter Last Name">
+              </div>
+
+              <div class="col">
+                <select name="" id="">
+                <option value="">Please Select From - Self/SME/Corporate etc</option>
+                <option value="">My Personal Account</option>
+                <option value="">MSME - Sole Signatory</option>
+                <option value="">SME/Corporate - Multi Signatory</option>
+                <option value="">Government/MDA</option>
+              </select>
+              </div>
+              <div class="col">
+                <input type="button" value="NEXT &gt;">
+              </div>
+              
+              
+            </div>
+          </div>
+      </form>
+
+
+      
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
