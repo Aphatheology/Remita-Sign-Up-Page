@@ -2,9 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
+
 #remita-div {
   background-color: lightgray;
   opacity: 0.5;
   color: #000;
+  width: 67%;
+  margin: 0px auto;
+
 }
