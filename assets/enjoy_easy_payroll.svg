@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="77px" height="77px" viewBox="0 0 77 77" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>enjoy_easy_payroll</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Remita_Web" transform="translate(-245.000000, -1566.000000)">
+            <g id="enjoy_easy_payroll" transform="translate(246.000000, 1567.000000)">
+                <circle id="Oval" stroke="#F16521" stroke-width="2" cx="37.5" cy="37.5" r="37.5"></circle>
+                <g id="calculator" transform="translate(23.000000, 20.000000)" fill-rule="nonzero" fill="#F16521">
+                    <path d="M0.00716049383,0.0357142857 L0.00716049383,34.9642857 L28.985679,34.9642857 L28.985679,0.0357142857 L0.00716049383,0.0357142857 Z M27.5750617,33.4785714 L1.49654321,33.4785714 L1.49654321,1.52142857 L27.5679012,1.52142857 L27.5679012,33.4785714 L27.5750617,33.4785714 Z" id="Shape" stroke="#F16521" stroke-width="0.4"></path>
+                    <path d="M25.1906173,3.9 L3.80938272,3.9 L3.80938272,11.4071429 L25.1906173,11.4071429 L25.1906173,3.9 Z M23.7728395,9.99285714 L5.29876543,9.99285714 L5.29876543,5.31428571 L23.7728395,5.31428571 L23.7728395,9.99285714 Z" id="Shape" stroke="#F16521" stroke-width="0.3"></path>
+                    <g id="Group-42" transform="translate(5.000000, 16.000000)">
+                        <rect id="Rectangle-path" x="0.298765432" y="0.0857142857" width="2.82839506" height="1.48571429"></rect>
+                        <rect id="Rectangle-path" x="8.11802469" y="0.0857142857" width="2.82839506" height="1.48571429"></rect>
+                        <rect id="Rectangle-path" x="15.865679" y="0.0857142857" width="2.82839506" height="1.48571429"></rect>
+                    </g>
+                    <g id="Group-43" transform="translate(5.000000, 19.000000)">
+                        <rect id="Rectangle-path" x="0.298765432" y="0.957142857" width="2.82839506" height="1.48571429"></rect>
+                        <rect id="Rectangle-path" x="8.11802469" y="0.957142857" width="2.82839506" height="1.48571429"></rect>
+                        <rect id="Rectangle-path" x="15.865679" y="0.957142857" width="2.82839506" height="1.48571429"></rect>
+                    </g>
+                    <g id="Group-44" transform="translate(5.000000, 23.000000)">
+                        <rect id="Rectangle-path" x="0.298765432" y="0.757142857" width="2.82839506" height="1.48571429"></rect>
+                        <rect id="Rectangle-path" x="8.11802469" y="0.757142857" width="2.82839506" height="1.48571429"></rect>
+                        <rect id="Rectangle-path" x="15.865679" y="0.757142857" width="2.82839506" height="1.48571429"></rect>
+                    </g>
+                    <g id="Group-45" transform="translate(5.000000, 27.000000)">
+                        <rect id="Rectangle-path" x="0.298765432" y="0.757142857" width="2.82839506" height="1.48571429"></rect>
+                        <rect id="Rectangle-path" x="8.11802469" y="0.757142857" width="2.82839506" height="1.48571429"></rect>
+                        <rect id="Rectangle-path" x="15.865679" y="0.757142857" width="2.82839506" height="1.48571429"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

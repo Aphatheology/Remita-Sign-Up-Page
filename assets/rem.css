@@ -1,0 +1,104 @@
+.colour{
+    background-color: #c74923;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    height: 70px;
+    margin-left: 50px;
+}
+.btn{
+    border-radius: 20px;
+    width: 200px;
+    font-size: 20px;
+    border-color: white; 
+    color: white;
+    vertical-align: middle;
+}
+.btn:hover{
+    background-color: white;
+    color: #c74923;
+}
+.body{
+    background-image: url(Main.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+#sec2{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    padding-right: 70px;
+}
+.wide{
+    width: 530px;
+}
+.h3{
+    font-size: 25px;
+    font-weight: lighter;
+}
+.h1{
+    font-size: 43px;
+    font-weight: normal;
+}
+#h1{
+    margin-bottom: 40px;
+}
+.list{
+    margin-bottom: 30px;
+}
+strong{
+    font-size: 18px;
+}
+p{
+    font-size: 18px;
+}
+.btnmargin{
+    margin-top: 10px;
+    margin-left: inherit;
+}
+.btncolour{
+    background-color: rgb(18, 150, 18);
+    color: white;
+    border: none;
+    border-radius: 40px;
+    padding: 15px;
+    width: 200px;
+}
+.btncolour:hover{
+    background-color: rgb(41, 87, 41);
+}
+.happyguy{
+    height: 100vh;
+    float: right;
+}
+.download{
+    background-color: lightgrey;
+    padding: 100px 0px;
+}
+.downloadsection{
+    margin-top: 150px;
+}
+.fontext{
+    font-size: 30px;
+}
+.downloadtext{
+    text-align: right;
+}
+h5{
+    font-size: 30px;
+}
+.downloadpic{
+    text-align: right;
+}
+.downloadpics{
+    margin: 50px 0px;
+}
+.newsletter{
+    margin: 100px;
+}
+.news{
+    font-weight: bold;
+}
+#sec3{
+    margin: 80px 0px;
+}
