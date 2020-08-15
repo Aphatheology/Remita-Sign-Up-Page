@@ -1,10 +1,10 @@
 // function for form validation
 
 function validation(){
-    var first_name 
-    var last_name
-    var email
-    var phone
+    var first_name  = document.getElementById("").value
+    var last_name = document.getElementById("").value
+    var email = document.getElementById("").value
+    var phone = document.getElementById("").value
 
 
 
