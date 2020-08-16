@@ -1,4 +1,14 @@
-
+var input = document.querySelector("#phone");
+window.intlTelInput(input, {
+        initialCountry: "auto",
+        geoIpLookup: function(success, failure) {
+        $.get("https://ipinfo.io", function() {}, "jsonp").always(function(resp) {
+            var countryCode = (resp && resp.country) ? resp.country : "";
+        success(countryCode);
+    });
+},
+    utilsScript: "build/js/utils.js",
+});
 
 //function for form validation
 function validation(){
@@ -11,8 +21,6 @@ function validation(){
     var error_text = document.getElementById("error-id")
     var display
 
-    error_text.style.padding = '20px'
-    
 
     //conditional statements and decision making   
     if (first_name.length < 3){
@@ -43,7 +51,5 @@ alert("Form successfully submitted")
 return true    
 
 }
-/**
- * Exposing intl-tel-input as a component
- */
+
 module.exports = require("./build/js/intlTelInput");
