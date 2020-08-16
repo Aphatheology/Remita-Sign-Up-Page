@@ -1,24 +1,228 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+
+  body {
+    font-family: "Open Sans", sans-serif;
+  }
+
+  nav {
+    width: 100vw;
+    background: #BD4A28;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  nav ul {
+    display: none;
+  }
+
   
-}
+  
+  #remita-div {
+    background-color: lightgray;
+    opacity: 0.5;
+    color: #000;
+    width: 90%;
+    margin: 0px auto;
+    padding: 30px;
+    text-align: center;
+  }
 
-#remita-div {
-  background-color: lightgray;
-  opacity: 0.5;
-  color: #000;
-  width: 100%;
-  margin: 0px auto;
+  #remita-div img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-radius: 25px;
+    margin: 20px auto;
+  }
 
-}
+  #remita-div h3 {
+    font-size: larger;
+    margin: 5px auto 20px;
+  }
 
-#submit {
-  background-color: #1a5e5c;
-  width: 200px;
-  height: 70px;
-  margin-top: 50px;
-  margin-right: 350px;
+  #remita-div form {
+    margin: 25px auto;
+    text-align: left;
+    /* border: 1px solid blue; */
+  }
 
-}
+  /* #remita-div form .container .row div:not(.fixnumber):not(.fixnumb) {
+    width: 100%;
+    overflow: hidden;
+    
+    margin: 20px auto 30px;
+  }
+
+  .fixnumber {
+    width: 100%;
+    overflow: hidden;
+    
+    margin: 20px auto 30px;
+  } */
+
+  .col-md-6, .registration {
+    margin: 20px 0px 30px;
+
+  }
+
+  label {
+    display: inline-block;
+    margin-bottom: 15px;
+  }
+
+  span {
+    color: rgb(255, 153, 0);
+  }
+
+  input:not([type="number"]) , select:not(.number){
+    width: 100%;
+    border: 2px solid rgb(235, 235, 235);
+    font-size: 16px;
+    /* padding: 15px 25px; */
+    background-color: rgb(255, 255, 255);
+    line-height: 1.33333;
+    border-radius: 0px;
+    padding: 12px 18px;
+  }
+
+  .fixnumb {
+    width: 100%;
+    border: 2px solid rgb(235, 235, 235);
+    font-size: 16px;
+    /* padding: 15px 25px; */
+    background-color: rgb(255, 255, 255);
+    line-height: 1.33333;
+    border-radius: 0px;
+    /* padding: 12px 18px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .fixnumb input {
+    font-size: 16px;
+    /* padding: 15px 25px; */
+    background-color: rgb(255, 255, 255);
+    line-height: 1.33333;
+    border-radius: 0px;
+    padding: 12px 18px;
+    width: inherit;
+    border: none;
+    outline: none;
+  }
+
+  input:focus {
+    border: 2px solid rgb(102, 175, 233);
+    outline: 0px;
+  }
+
+  select.number {
+    border: none;
+    outline: none;
+  }
+
+
+  /* .div_remita_intro {
+    width: 100vw;
+    background: #BD4A28;
+    padding: 20px;
+    dis
+  } */
+
+  
+
+  button {
+    background-color: rgb(0, 109, 103);
+    color: rgb(255, 255, 255);
+    padding: 12px 20px;
+    font-size: 18px;
+    line-height: 1.33333;
+    text-align: center;
+    white-space: nowrap;
+    border: 1px solid rgb(0, 109, 103);
+    border-radius: 0px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: rgb(0, 138, 132);
+    border: 1px solid rgb(0, 109, 103);
+  }
+
+  @media only screen and (min-width: 1000px) {
+    #remita-div {
+      width: 80vw
+    } 
+
+    .fixing-desktop-view {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+
+    }
+
+    .fixing-desktop-view .col-md-6  {
+      width: 45%;
+    }
+
+    /* #remita-div form .container .row div:not(.fixnumber):not(.fixnumb):not(.registration):not(.fixing-desktop-view)  {
+      width: 45%;
+      
+      display: inline-block;
+    } */
+
+    /* .last-name , .fixnumber {
+      margin-left: 20px;
+    } */
+
+    nav {
+      width: 100vw;
+      background: #BD4A28;
+      padding: 50px 100px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+
+    nav ul {
+      display: block;
+      list-style-type: none;
+    }
+  
+    nav ul li {
+      display: inline-block;
+      padding-left: 5px;
+      padding-right: 5px;
+      
+      cursor: pointer;
+    }
+  
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+    }
+  
+    nav ul li a:hover {
+      color: white;
+    }
+
+
+    
+  }
+
+
+
