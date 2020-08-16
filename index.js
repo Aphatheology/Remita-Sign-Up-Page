@@ -31,7 +31,7 @@ function validation(){
         return false
     }
 
-    if (phone.length < 11 || phone.length > 15 || isNaN(phone)){
+    if (phone.length < 9 || phone.length > 15 || isNaN(phone)){
         display = "Enter a valid phone number"
         error_text.innerHTML = display
         return false
