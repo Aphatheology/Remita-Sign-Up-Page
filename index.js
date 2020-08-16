@@ -11,6 +11,8 @@ function validation(){
     var error_text = document.getElementById("error-id")
     var display
 
+    error_text.style.padding = '20px'
+    
 
     //conditional statements and decision making   
     if (first_name.length < 3){
