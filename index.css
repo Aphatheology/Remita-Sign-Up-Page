@@ -68,6 +68,14 @@
     
     margin: 20px auto 30px;
   } */
+  
+  #error-id{
+    width: 100%;
+    padding: 0;
+    margin: 10px 0 10px 0;
+    background-color: firebrick;
+    transition: all 0.5s ease;
+  }
 
   .col-md-6, .registration {
     margin: 20px 0px 30px;
