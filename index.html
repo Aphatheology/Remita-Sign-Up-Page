@@ -16,6 +16,7 @@
       crossorigin="anonymous"
     /> -->
     <!--Personal Style Sheet-->
+    <link rel="stylesheet" href="build/css/intlTelInput.css">
     <link rel="stylesheet" href="index.css" />
   
 
@@ -45,7 +46,6 @@
         <h6>Please enter your details below</h6>
       </div>
       <div id="error-id" class="text-center"></div>
-    
 
       <!-- FORM -->
       <form action="/" method="GET" id="form" onsubmit="return validation()">
@@ -59,16 +59,16 @@
     
                   <div class="col-md-6  col-lg-6 col-6 fixnumber"> 
                   <label for="phone" class="d-block">Phone Number <span>*</span></label> <br>
-                   <div class="fixnumb">
-                    <select class="number">
+                   
+                    <!-- <select class="number">
                         <option>+234</option>
                         <option>+233</option>
                         <option>+44</option>
                         <option>+1</option>
                         <option>+254</option>
-                      </select>
-                      <input type="number" id="phone" required>
-                   </div> 
+                      </select> -->
+                      <input id="phone" name="phone" type="tel" placeholder="Enter Phone Number">
+                    
                   </div>
     
                   <div class="col-md-6  col-lg-6 col-6">
@@ -101,6 +101,20 @@
                   <input type="number" id="phone" required>
                </div> 
               </div>
+
+              <div class="col-md-6  col-lg-6 col-6 fixnumber"> 
+                  <label for="phone" class="d-block">Phone Number <span>*</span></label> <br>
+                   <div class="fixnumb">
+                    <select class="number">
+                        <option>+234</option>
+                        <option>+233</option>
+                        <option>+44</option>
+                        <option>+1</option>
+                        <option>+254</option>
+                      </select> 
+                      <input id="phone" name="phone" type="tel" placeholder="Enter Phone Number">
+                   </div> 
+                  </div>
 
               <div class="col-md-6  col-lg-6 col-6">
                 <label for="first-name" class="d-block">First Name <span>*</span></label> <br>
@@ -153,6 +167,16 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script> -->
-    <script src="./index.js"></script>
+
+    <!-- <script src="path/to/intlTelInput.js"></script> -->
+    <script src="build/js/intlTelInput.js"></script>
+<script>
+  var input = document.querySelector("#phone");
+  window.intlTelInput(input, {
+    // any initialisation options go here
+  });
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
