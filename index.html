@@ -9,14 +9,14 @@
     />
 
     <!-- Bootstrap CSS -->
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
-    />
+    /> -->
     <!--Personal Style Sheet-->
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="index.css" />
   
 
     <title>Remita Sign Up Page</title>
@@ -25,6 +25,18 @@
     <!--DO NOT OVERWRITE ANYTHING-->
 
     <!--DO NOT OVERWRITE ANYTHING-->
+
+    <nav>
+        <img src="images/remita_logo_white.png" alt="">
+
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Remita Mobile</a></li>
+            <li><a href="#">Developer</a></li>
+        </ul>
+    </nav>
+
+
 
     <div id="remita-div">
       <div class="div_remita_intro d-flex align-items-center flex-column justify-content-center w-75">
@@ -39,36 +51,70 @@
       <form action="/" method="GET" id="form" onsubmit="return validation()">
         <div class="container">
           <div class="row">
-              <div class="col-md-6 col-lg-6 col-6">
-                <label for="email" class="d-block">Email Address*</label>
+              <div class="fixing-desktop-view">
+                <div class="col-md-6 col-lg-6 col-6">
+                    <label for="email" class="d-block">Email Address <span>*</span></label> <br>
+                    <input type="text" id="email" placeholder="Enter Email Address" required>
+                  </div>
+    
+                  <div class="col-md-6  col-lg-6 col-6 fixnumber"> 
+                  <label for="phone" class="d-block">Phone Number <span>*</span></label> <br>
+                   <div class="fixnumb">
+                    <select class="number">
+                        <option>+234</option>
+                        <option>+233</option>
+                        <option>+44</option>
+                        <option>+1</option>
+                        <option>+254</option>
+                      </select>
+                      <input type="number" id="phone" required>
+                   </div> 
+                  </div>
+    
+                  <div class="col-md-6  col-lg-6 col-6">
+                    <label for="first-name" class="d-block">First Name <span>*</span></label> <br>
+                    <input type="text" id="first-name" placeholder="Enter First Name" required>
+                  </div>
+    
+                  <div class="col-md-6  col-lg-6 col-6 last-name">
+                    <label for="last-name" class="d-block">Last Name <span>*</span></label> <br>
+                    <input type="text" id="last-name" placeholder="Enter Last Name" required>
+                  </div>
+
+                
+              </div>
+              <!-- <div class="col-md-6 col-lg-6 col-6">
+                <label for="email" class="d-block">Email Address <span>*</span></label> <br>
                 <input type="text" id="email" placeholder="Enter Email Address" required>
               </div>
 
-              <div class="col-md-6  col-lg-6 col-6"> 
-              <label for="phone" class="d-block">Phone Number*</label>
-                <select>
-                  <option>+234</option>
-                  <option>+233</option>
-                  <option>+44</option>
-                  <option>+1</option>
-                  <option>+254</option>
-                </select>
-                <input type="text" id="phone" required>
+              <div class="col-md-6  col-lg-6 col-6 fixnumber"> 
+              <label for="phone" class="d-block">Phone Number <span>*</span></label> <br>
+               <div class="fixnumb">
+                <select class="number">
+                    <option>+234</option>
+                    <option>+233</option>
+                    <option>+44</option>
+                    <option>+1</option>
+                    <option>+254</option>
+                  </select>
+                  <input type="number" id="phone" required>
+               </div> 
               </div>
 
               <div class="col-md-6  col-lg-6 col-6">
-                <label for="first-name" class="d-block">First Name*</label>
+                <label for="first-name" class="d-block">First Name <span>*</span></label> <br>
                 <input type="text" id="first-name" placeholder="Enter First Name" required>
               </div>
 
-              <div class="col-md-6  col-lg-6 col-6">
-                <label for="last-name" class="d-block">Last Name*</label>
+              <div class="col-md-6  col-lg-6 col-6 last-name">
+                <label for="last-name" class="d-block">Last Name <span>*</span></label> <br>
                 <input type="text" id="last-name" placeholder="Enter Last Name" required>
-              </div>
+              </div> -->
 
-              <div class="col">
-                <label for="registration" class="d-block">This Registration is for*</label>
-                <select name="" id="">
+              <div class="col registration">
+                <label for="registration" class="d-block">This Registration is for*</label> <br>
+                <select name="" id="registration">
                 <option value="">Please Select From - Self/SME/Corporate etc</option>
                 <option value="">My Personal Account</option>
                 <option value="">MSME - Sole Signatory</option>
@@ -79,6 +125,8 @@
 
               <div class="g-recaptcha"></div>
               <button type="submit" id="submit">NEXT</button>
+
+              
               
               
             </div>
@@ -90,7 +138,7 @@
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
+    <!-- <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"
@@ -104,7 +152,7 @@
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
-    ></script>
+    ></script> -->
     <script src="./index.js"></script>
   </body>
 </html>
