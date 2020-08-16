@@ -17,6 +17,7 @@
     />
     <!--Personal Style Sheet-->
     <link rel="stylesheet" href="./index.css" />
+  
 
     <title>Remita Sign Up Page</title>
   </head>
@@ -31,32 +32,35 @@
         <h3>Register with Remita</h3>
         <h6>Please enter your details below</h6>
       </div>
+      <div id="error-id" class="text-center"></div>
+    
 
       <!-- FORM -->
-      <form action="sub">
+      <form action="/" method="GET" id="form" onsubmit="return validation()">
         <div class="container">
           <div class="row">
               <div class="col-md-6 col-lg-6 col-6">
                 <label for="email" class="d-block">Email Address*</label>
-                <input type="text" id="email" placeholder="Enter Email Address">
+                <input type="text" id="email" placeholder="Enter Email Address" required>
               </div>
 
               <div class="col-md-6  col-lg-6 col-6"> 
               <label for="phone" class="d-block">Phone Number*</label>
-                <input type="text" id="phone" >
+                <input type="text" id="phone" required>
               </div>
 
               <div class="col-md-6  col-lg-6 col-6">
                 <label for="first-name" class="d-block">First Name*</label>
-                <input type="text" id="first-name" placeholder="Enter First Name">
+                <input type="text" id="first-name" placeholder="Enter First Name" required>
               </div>
 
               <div class="col-md-6  col-lg-6 col-6">
                 <label for="last-name" class="d-block">Last Name*</label>
-                <input type="text" id="last-name" placeholder="Enter Last Name">
+                <input type="text" id="last-name" placeholder="Enter Last Name" required>
               </div>
 
               <div class="col">
+                <label for="registration" class="d-block">This Registration is for*</label>
                 <select name="" id="">
                 <option value="">Please Select From - Self/SME/Corporate etc</option>
                 <option value="">My Personal Account</option>
@@ -65,9 +69,7 @@
                 <option value="">Government/MDA</option>
               </select>
               </div>
-              <div class="col">
-                <input type="button" value="NEXT &gt;">
-              </div>
+              <button type="submit" id="submit">NEXT</button>
               
               
             </div>
@@ -94,5 +96,6 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
+    <script src="./index.js"></script>
   </body>
 </html>
